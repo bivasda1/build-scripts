@@ -65,8 +65,8 @@ cd $CWD
 
 # build che-plugin-registry
 git clone https://github.com/eclipse/che-plugin-registry.git
-git checkout $VERSION
 cd che-plugin-registry
+git checkout $VERSION
 ./build.sh -t 7.26.2 --rhel
 
 cd $CWD
